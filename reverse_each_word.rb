@@ -1,4 +1,7 @@
 def reverse_each_word(sentence)
-  sentence.collect
+  array = []
+  sentence.chars.push(array)
+  array.collect |x| do
+    
   end
 end 
